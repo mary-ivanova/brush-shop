@@ -138,37 +138,46 @@ td {
  }
 
 .tovar, .cnt, .surname, .name, .otch, .phone, .email {
-   width: 600px;
-   margin-bottom: 10px;
+   width: 300px;
+   padding-bottom: 10px;
 } 
 
-.phone, .email, .submit {
-   margin-top: 10px;
+.tovar label {
+  padding-right: 76px;
 }
 
-.label-tovar {    
-   margin-left: 10%;
-}
-.label-cnt {
-margin-left: 3%;
-} 
-
-.label-surname {
-margin-left: 6%;
+.cnt label {
+   padding-right: 36px;
 }
 
-.label-name {
-margin-left: 12%;
+.surname label {
+   padding-right: 52px;
 }
 
-.label-otch {
-margin-left: 6%;
+ .name label{
+   padding-right: 86px;
+ }
+
+ .otch label{
+   padding-right: 52px;
+ }
+
+ .phone label {
+   padding-right: 57px;
 }
 
-.label-phone {
-margin-left: 6%;
+.email label {
+   padding-right: 73px;
 }
 
-.label-email {
-margin-left: 9%;
+.row {
+   display: flex;
+}
+
+.maps {
+   margin-top: 20px;
+}
+.address {
+   margin-top: 20px;
+   margin-left: 20px;
 }
